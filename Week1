@@ -1,0 +1,11 @@
+## Using the select statement
+
+  Select * from tablename
+    db2=> select * from Book
+  SELECT <column 1>,<column 2> from book
+      db2=> select book_id, title from Book
+  
+  ## WHERE
+    db2=> select book_id, title from book
+      Where book_id='B1'
+     
